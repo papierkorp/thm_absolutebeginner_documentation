@@ -1,0 +1,179 @@
+{
+  "main": {
+    "id": "d16bd1faddb6a5ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "25898c3076763546",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2706563c13f14621",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7b425a322ceb40fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ec7f61c1d019fb6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dbc49de60d6c537",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bf257eca1d73a68e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "rce",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "aa47a35afd3580ce",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fd9aa776818f54f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e296b477cbedacd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c57116d57f930c5b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0f30ba0488134393",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c341ee903c5fbdb5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "58e80d7ed9683b74",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "bfe2cb72e916361c",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5087618986945184,
+                  "close": false
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "2706563c13f14621",
+  "lastOpenFiles": [
+    "Tools/netcat.md",
+    "Readme.md",
+    "Tools/Paketsniffer.md",
+    "Tools/msfvenom.md",
+    "Tools/Burp Suite.md",
+    "Theorie/Web Fundamentals.md",
+    "Theorie/NetworkServices.md",
+    "Theorie/Injection.md",
+    "Enumeration/Web.md",
+    "Enumeration/Port Scanning.md"
+  ]
+}
