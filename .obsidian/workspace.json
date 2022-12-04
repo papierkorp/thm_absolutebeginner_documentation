@@ -172,16 +172,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2706563c13f14621",
+  "active": "0dbc49de60d6c537",
   "lastOpenFiles": [
     "Tools/netcat.md",
     "Readme.md",
     "Tools/Paketsniffer.md",
     "Tools/msfvenom.md",
     "Tools/Burp Suite.md",
-    "Theorie/Web Fundamentals.md",
-    "Theorie/NetworkServices.md",
-    "Theorie/Injection.md",
+    "Theory/Web Fundamentals.md",
+    "Theory/NetworkServices.md",
+    "Theory/Injection.md",
     "Enumeration/Web.md",
     "Enumeration/Port Scanning.md"
   ]

@@ -8,5 +8,6 @@
   },
   "livePreview": false,
   "trashOption": "system",
-  "useMarkdownLinks": false
+  "useMarkdownLinks": false,
+  "alwaysUpdateLinks": true
 }
