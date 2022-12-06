@@ -130,6 +130,7 @@ same as [HTTP](#HTTP - HyperText Transfer Protocol) just with Data encrypted
   - Magic Number Validation (Linux)
     - Magic Numer of File = String of Bytes at the beginning of the File Content
     - e.g. PNG = `89 50 4E 47 0D 0A 1 A 0A`
+    - [List of Signatures in Wikipedia](https://en.wikipedia.org/wiki/List_of_file_signatures)
 - File Length Filtering
 - Filte Name Filtering
   - checking if there is a file with a similiar name

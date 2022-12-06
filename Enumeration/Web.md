@@ -30,6 +30,9 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 ===============================================================
 ```
 
+Parameter
+- `-x php,txt,html` append each word to the selected wordlist one at a time (if the name of the uploaded file is changed) 
+
 # Wappalyzer
 
 Wappalyzer works with the tools you use every day.

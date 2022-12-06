@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
+                "file": "Attack/Missconfiguration/File Upload.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "90e6bbadf67b6d89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Enumeration/Web.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "599748b1ec232548",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Attack/Injection/RCE.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b119c095b446f7a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Theory/Web Fundamentals.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rce",
+                "query": "magi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "Enumeration/Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "Enumeration/Web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "Enumeration/Web.md"
               }
             }
           },
@@ -135,7 +172,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Readme.md",
+                "file": "Enumeration/Web.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -165,24 +202,23 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "0dbc49de60d6c537",
+  "active": "90e6bbadf67b6d89",
   "lastOpenFiles": [
-    "Tools/netcat.md",
-    "Readme.md",
-    "Tools/Paketsniffer.md",
-    "Tools/msfvenom.md",
-    "Tools/Burp Suite.md",
+    "Attack/Missconfiguration/File Upload.md",
     "Theory/Web Fundamentals.md",
-    "Theory/NetworkServices.md",
-    "Theory/Injection.md",
     "Enumeration/Web.md",
-    "Enumeration/Port Scanning.md"
+    "Attack/Injection/RCE.md",
+    "Theory/NetworkServices.md",
+    "Enumeration/Network Storage.md",
+    "Tools/MetaSploit.md",
+    "Enumeration/Mailserver.md",
+    "Attack/Bruteforce/John the Ripper.md",
+    "Attack/Bruteforce/Hydra.md"
   ]
 }
