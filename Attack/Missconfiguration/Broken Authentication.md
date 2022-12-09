@@ -1,6 +1,6 @@
 - Bruteforce
 - Weak Passwords
-- [[Insecure Deserilization#Cookies|attackable Cookies]]
+- [attackable Cookies](Insecure%20Deserilization.md#Cookies)
 
 Defence: 
 - Strong Password Policy
@@ -14,4 +14,4 @@ e.g. register " admin" with a space in front as a new user
 
 Example 2:
 
-[[Burp Suite#Intruder]]
+[Intruder](Burp%20Suite.md#Intruder)

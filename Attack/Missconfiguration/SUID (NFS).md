@@ -1,4 +1,4 @@
-If [[NetworkServices#root squashing]] isnt configured it can be exploited:
+If [root Squasing](NetworkServices#root%20squashing) isnt configured it can be exploited:
 
 SUID (bit set) = specific linux authorization method to execute Files with every User as Owner/Group (like a superuser)
 

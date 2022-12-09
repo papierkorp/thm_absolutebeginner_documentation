@@ -4,59 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "25898c3076763546",
+        "id": "fb186bd1ca4f4b20",
         "type": "tabs",
         "children": [
           {
-            "id": "2706563c13f14621",
+            "id": "ccada2c7f6442ded",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Attack/Missconfiguration/File Upload.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "90e6bbadf67b6d89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Enumeration/Web.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "599748b1ec232548",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Attack/Injection/RCE.md",
+                "file": "Attack/Passwords.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "b119c095b446f7a1",
+            "id": "55e87721f0374278",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theory/Web Fundamentals.md",
+                "file": "Tools/John the Ripper.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "246b68b911cce040",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Theory/Hashing.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2101a2873398e76b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Attack/Passwords.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "magi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Enumeration/Web.md",
+                "file": "Attack/Passwords.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Enumeration/Web.md",
+                "file": "Attack/Passwords.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Enumeration/Web.md"
+                "file": "Attack/Passwords.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Enumeration/Web.md",
+                "file": "Attack/Passwords.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -180,21 +180,21 @@
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
+                  "showTags": true,
+                  "showAttachments": true,
+                  "hideUnresolved": true,
                   "collapse-color-groups": true,
                   "colorGroups": [],
                   "collapse-display": true,
                   "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
+                  "textFadeMultiplier": -0.4,
+                  "nodeSizeMultiplier": 0.9421875,
+                  "lineSizeMultiplier": 1.12083333333333,
                   "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
+                  "centerStrength": 0.432291666666667,
+                  "repelStrength": 9.6875,
+                  "linkStrength": 0.895833333333333,
+                  "linkDistance": 189,
                   "scale": 0.5087618986945184,
                   "close": false
                 }
@@ -202,23 +202,23 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "90e6bbadf67b6d89",
+  "active": "2101a2873398e76b",
   "lastOpenFiles": [
-    "Attack/Missconfiguration/File Upload.md",
+    "Attack/Bruteforce.md",
+    "Tools/John the Ripper.md",
+    "Tools/Hydra.md",
+    "Tools/Hashcat.md",
+    "Attack/Passwords.md",
+    "Theory/Hashing.md",
     "Theory/Web Fundamentals.md",
-    "Enumeration/Web.md",
     "Attack/Injection/RCE.md",
-    "Theory/NetworkServices.md",
-    "Enumeration/Network Storage.md",
-    "Tools/MetaSploit.md",
-    "Enumeration/Mailserver.md",
-    "Attack/Bruteforce/John the Ripper.md",
-    "Attack/Bruteforce/Hydra.md"
+    "Enumeration/Web.md",
+    "Tools/netcat.md"
   ]
 }

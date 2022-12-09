@@ -59,7 +59,7 @@ XFS - Cross Frame Scripting, e.g. in Search Bar
 
 ## Persistent
 
--  In [[Burp Suite]]: Intercept On
+-  In [Burp Suite](Burp%20Suite): Intercept On
 - On Webseite: Log Out
 - In Burp Suite: Request Headers - add
     - Name: True-Client-IP (similar to X-Forwarded-For header) (ist ähnlich zu X-Forwarded-For header, if header is not cleaned)

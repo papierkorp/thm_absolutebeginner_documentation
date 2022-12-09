@@ -15,6 +15,8 @@ e.g. Wordpressversion 4.6 (after wpscan)  => https://www.exploit-db.com/exploits
 
 # Web Shell
 
+mhm
+
 ## PHP
 
 Create a webshell.php:
@@ -28,13 +30,18 @@ and call it on the Target with: `view-source:http://demo.uploadvuln.thm/uploads/
 
 # Reverse Shell
 
+[Reverse Shell Cheat Sheet](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
+
 ## PHP - Pentest Monkey
 
 Use a general [Pentest Monkey Reverse Shell](https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php), change Line 49 `$ip = '127.0.0.1'; // CHANGE THIS` and save as "reverse-shell.php"
 
-Start a [[netcat]] Listener on the local machine: `nc -lvnp 1234`
+Start a [netcat](netcat) Listener on the local machine: `nc -lvnp 1234`
 
 Upload the Shell by navigating to the uploaded File: `http://demo.uploadvulns.thm/uploads/php-reverse-shell.php`
 
 The Webpage shouldn load normally but will hang and we will get a connection in netcat.
 
+## Node.js
+
+[Node.js Reverseshell](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md#nodejs)

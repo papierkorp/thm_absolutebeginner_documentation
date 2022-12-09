@@ -1,6 +1,6 @@
 Example:
 
-Exploit MySQL with [[MetaSploit]]
+Exploit MySQL with [MetaSploit](metasploit)
 
 ```
 use auxiliary/scanner/mysql/mysql_hashdump 
