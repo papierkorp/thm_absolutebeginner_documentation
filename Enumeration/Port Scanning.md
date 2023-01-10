@@ -2,7 +2,7 @@
 
 Is controlled with Console Commands:
 
-`nmap [Scan Type] [Options] {target}</code>`
+`nmap [Scan Type] [Options] {target}`
 
 Scan Types
 * Most used

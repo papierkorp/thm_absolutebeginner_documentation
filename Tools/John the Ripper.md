@@ -1,3 +1,5 @@
+=> Bruteforce Hashes
+
 Example:
 
 Exploit MySQL with [MetaSploit](metasploit)
