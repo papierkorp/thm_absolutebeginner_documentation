@@ -8,48 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "737acefce6660830",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project/Picklerick - Rick and Morty.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ccada2c7f6442ded",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Enumeration/Web.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "aa12804622bf1276",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Attack/Bruteforce.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "55e87721f0374278",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Tools/John the Ripper.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9aecf46b93bf6938",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Theory/Linux.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "cbaca72516e694b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Enumeration/Windows.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b00ea41abd701083",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Theory/Hashing.md",
                 "mode": "source",
                 "source": true
               }
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "linux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Picklerick - Rick and Morty.md",
+                "file": "Tools/John the Ripper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Picklerick - Rick and Morty.md",
+                "file": "Tools/John the Ripper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Picklerick - Rick and Morty.md"
+                "file": "Tools/John the Ripper.md"
               }
             }
           },
@@ -171,7 +171,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Project/Picklerick - Rick and Morty.md",
+                "file": "Tools/John the Ripper.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -201,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -217,17 +217,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "737acefce6660830",
+  "active": "55e87721f0374278",
   "lastOpenFiles": [
-    "Enumeration/Web.md",
-    "Attack/Bruteforce.md",
+    "Theory/Linux.md",
+    "Enumeration/Windows.md",
     "Tools/John the Ripper.md",
+    "Theory/Hashing.md",
+    "Attack/Bruteforce.md",
+    "Enumeration/Web.md",
     "Project/Picklerick - Rick and Morty.md",
     "Tools/Hydra.md",
     "Tools/Burp Suite.md",
-    "Theory/Hashing.md",
-    "Attack/Passwords.md",
-    "Enumeration/Port Scanning.md",
-    "Tools/Hashcat.md"
+    "Attack/Passwords.md"
   ]
 }
