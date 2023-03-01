@@ -1,7 +1,10 @@
+#hash 
+
 **Usage**
 
 1. [verify Integrity of data](hashing.md#data%20integrity%20verification)
 2. [verify Passwords](hashing.md#password%20verification)
+3. [identify the type of the hash](hashing.md#hash%20identification)
 
 # Key Terms
 
@@ -58,8 +61,20 @@ One Method is HMACs. A HMAC can be used to ensure that the person who created th
 - SHA1
 - bcrypt
 - SHA512crypt
+<<<<<<< HEAD
 - NTLM (Windows Passwords) (variant of MD4)
 
 # Cracking Hashes
 obsidian://open?vault=THM&file=Tools%2FJohn%20the%20Ripper
 - [John the Ripper](John%20the%20Ripper.md)
+=======
+- NTHash/NTLM (Windows Passwords) (variant of MD4)
+
+
+# Hash Identification
+
+1) per Online Tool: https://hashes.com/en/tools/hash_identifier
+2) per [Python Hash Identifier](https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master)
+	1) `wget https://gitlab.com/kalilinux/packages/hash-identifier/-/raw/kali/master/hash-id.py`
+	2) `python3 hash-id.py`
+>>>>>>> 877ecb89fc418bec54c43a1c7980b3e6f25b2acd

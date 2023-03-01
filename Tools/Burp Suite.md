@@ -124,6 +124,8 @@ Proxy Options - Intercept Client Requests - And / URL / Is in target scope
 
 ## Intruder
 
+=> Bruteforce Passwords for Website Logins
+
 First you have to forward the Login Request from Proxy to Intruder
 
 -  Positions

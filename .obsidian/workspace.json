@@ -8,16 +8,60 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ccada2c7f6442ded",
+            "id": "55e87721f0374278",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Tools/Packetsniffer.md",
                 "mode": "preview",
                 "source": true
               }
             }
+=======
+                "file": "Tools/John the Ripper.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9aecf46b93bf6938",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Theory/Linux.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "cbaca72516e694b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Enumeration/Windows.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b00ea41abd701083",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Theory/Hashing.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+>>>>>>> 877ecb89fc418bec54c43a1c7980b3e6f25b2acd
           }
         ]
       }
@@ -48,7 +92,11 @@
             "state": {
               "type": "search",
               "state": {
+<<<<<<< HEAD
                 "query": "sniff",
+=======
+                "query": "linux",
+>>>>>>> 877ecb89fc418bec54c43a1c7980b3e6f25b2acd
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +134,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Tools/Packetsniffer.md",
+=======
+                "file": "Tools/John the Ripper.md",
+>>>>>>> 877ecb89fc418bec54c43a1c7980b3e6f25b2acd
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +155,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Tools/Packetsniffer.md",
+=======
+                "file": "Tools/John the Ripper.md",
+>>>>>>> 877ecb89fc418bec54c43a1c7980b3e6f25b2acd
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +182,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Tools/Packetsniffer.md"
+=======
+                "file": "Tools/John the Ripper.md"
+>>>>>>> 877ecb89fc418bec54c43a1c7980b3e6f25b2acd
               }
             }
           },
@@ -136,7 +196,11 @@
             "state": {
               "type": "localgraph",
               "state": {
+<<<<<<< HEAD
                 "file": "Tools/Packetsniffer.md",
+=======
+                "file": "Tools/John the Ripper.md",
+>>>>>>> 877ecb89fc418bec54c43a1c7980b3e6f25b2acd
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -166,7 +230,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -182,6 +246,7 @@
       "command-palette:Open command palette": false
     }
   },
+<<<<<<< HEAD
   "active": "ccada2c7f6442ded",
   "lastOpenFiles": [
     "Attack/Injection/XSS - Cross Site Scripting.md",
@@ -194,5 +259,19 @@
     "Readme.md",
     "Enumeration/Port Scanning.md",
     "Attack/Bypass.md"
+=======
+  "active": "55e87721f0374278",
+  "lastOpenFiles": [
+    "Theory/Linux.md",
+    "Enumeration/Windows.md",
+    "Tools/John the Ripper.md",
+    "Theory/Hashing.md",
+    "Attack/Bruteforce.md",
+    "Enumeration/Web.md",
+    "Project/Picklerick - Rick and Morty.md",
+    "Tools/Hydra.md",
+    "Tools/Burp Suite.md",
+    "Attack/Passwords.md"
+>>>>>>> 877ecb89fc418bec54c43a1c7980b3e6f25b2acd
   ]
 }
