@@ -1,5 +1,5 @@
 
-packetsniffer = testing if remote machine allows systemcommands
+packetsniffer = testing if remote machine allows systemcommands / packets
 
 # tcpdump
 

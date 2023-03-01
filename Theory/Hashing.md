@@ -59,3 +59,7 @@ One Method is HMACs. A HMAC can be used to ensure that the person who created th
 - bcrypt
 - SHA512crypt
 - NTLM (Windows Passwords) (variant of MD4)
+
+# Cracking Hashes
+obsidian://open?vault=THM&file=Tools%2FJohn%20the%20Ripper
+- [John the Ripper](John%20the%20Ripper.md)

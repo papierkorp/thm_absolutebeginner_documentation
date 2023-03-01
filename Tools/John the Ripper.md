@@ -1,4 +1,27 @@
-Example:
+Hash Cracker, has a lot of different distribution. Most popular distribution is "Jumbo John".
+
+## Install
+
+Per Repository:
+
+```
+sudo apt install john
+```
+
+Building from Source:
+
+https://github.com/openwall/john/blob/bleeding-jumbo/doc/INSTALL
+
+1.   Use `git clone https://github.com/openwall/john -b bleeding-jumbo john` to clone the jumbo john repository to your current working
+2.   Then `cd john/src/` to change your current directory to where the source code is. 
+3.  Once you're in this directory, use `./configure` to check the required dependencies and options that have been configured.
+4.  If you're happy with this output, and have installed any required dependencies that are needed, use `make -s clean && make -sj4` to build a binary of john. This binary will be in the above run directory, which you can change to with `cd ../run`
+5.  You can test this binary using ./john --test
+
+## Usage
+
+
+## Example
 
 Exploit MySQL with [MetaSploit](metasploit)
 
