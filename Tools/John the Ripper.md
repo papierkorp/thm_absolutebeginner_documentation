@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-Hash Cracker, has a lot of different distribution. Most popular distribution is "Jumbo John".
+=> Hash Cracker, has a lot of different distribution. Most popular distribution is "Jumbo John".
 
-## Install
+##Install
 
 Per Repository:
 
@@ -19,12 +18,7 @@ https://github.com/openwall/john/blob/bleeding-jumbo/doc/INSTALL
 4.  If you're happy with this output, and have installed any required dependencies that are needed, use `make -s clean && make -sj4` to build a binary of john. This binary will be in the above run directory, which you can change to with `cd ../run`
 5.  You can test this binary using ./john --test
 
-## Usage
 
-
-## Example
-=======
-=> Bruteforce Hashes
 
 # Basic Syntax
 
