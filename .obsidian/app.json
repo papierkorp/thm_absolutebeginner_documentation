@@ -9,5 +9,6 @@
   "livePreview": false,
   "trashOption": "system",
   "useMarkdownLinks": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true
 }

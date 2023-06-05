@@ -1,6 +1,6 @@
 => Hash Cracker, has a lot of different distribution. Most popular distribution is "Jumbo John".
 
-##Install
+# Install
 
 Per Repository:
 
@@ -76,12 +76,34 @@ john --wordlist=/usr/share/wordlists/rockyou.txt --format=sha512crypt roothash.t
 john --show roothash.txt
 ```
 
+## Single Crack Mode
+
+John uses only the Information provided in the Username to try and work out possible passwords heuristically by word mangling.
+
+for Example the Username: `Markus`
+
+could be:
+
+-   Markus1, Markus2, Markus3 (etc.)
+-   MArkus, MARkus, MARKus (etc.)
+-   Markus!, Markus$, Markus* (etc.)
+
+John can also use Geco Fields of UNIX OS. (extra Information in `/etc/shadow` / `/etc/passwd`).
+
+Use the Single Crack Mode:
+
+```bash
+john --single --format=[format] [path to file]
+john --single --format=raw-sha256 hashes.txt
+```
+
+while changing the hash from `1efee03cdcb96d90ad48ccc7b8666033` to `mike:1efee03cdcb96d90ad48ccc7b8666033`
 
 # Examples
 
 Exploit MySQL with [MetaSploit](metasploit)
 
-```
+```bash
 use auxiliary/scanner/mysql/mysql_hashdump 
 options
 set RHOSTS 10.10.60.123
