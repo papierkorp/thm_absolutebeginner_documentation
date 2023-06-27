@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
+                "file": "Enumeration/Web.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "Enumeration/Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "Enumeration/Web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "Enumeration/Web.md"
               }
             }
           }
@@ -169,10 +169,11 @@
   },
   "active": "5a3ac8e07e2d6375",
   "lastOpenFiles": [
+    "Attack/Bruteforce.md",
+    "Readme.md",
     "How to start an attack.md",
     "Enumeration/Port Scanning.md",
     "Enumeration/Port-Scanning.md",
-    "Readme.md",
     "Enumeration/nmap.md",
     "nmap.md",
     "Enumeration/Network Storage.md",
@@ -180,7 +181,6 @@
     "Projects/Picklerick - Rick and Morty.md",
     "Enumeration/Mailserver.md",
     "Tools/Packetsniffer.md",
-    "Attack/Bruteforce.md",
     "Theory/Injection.md",
     "Theory/Hashing.md",
     "Theory/NetworkServices.md",
