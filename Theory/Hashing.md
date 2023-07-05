@@ -8,15 +8,39 @@
 
 # Key Terms
 
-- Plaintext - Data before encryption or hashing, often text but not always as it could be a photograph or other file instead.
-- Encoding - This is NOT a form of encryption, just a form of data representation like base64 or hexadecimal. Immediately reversible.
-- Hash - A hash is the output of a hash function. Hashing can also be used as a verb, "to hash", meaning to produce the hash value of some data.
-- Brute force - Attacking cryptography by trying every different password or every different key
-- Cryptanalysis - Attacking cryptography by finding a weakness in the underlying maths
-- Hash Collission - 2 different Inputs give the same hashed output
-- Pigeonhole Effect - set number of differen output values for any size input (more inputs than outputs - e.g. 128 pigeons for 96 pigeonholes, some pigeons have to share)
+- Plaintext
+	- `Data before encryption or hashing, often text but not always as it could be a photograph or other file instead.`
+- Encoding 
+	- `This is NOT a form of encryption, just a form of data representation like base64 or hexadecimal. Immediately reversible.`
+- Hash
+	- ` A hash is the output of a hash function. Hashing can also be used as a verb, "to hash", meaning to produce the hash value of some data.`
+- Brute force 
+	- `Attacking cryptography by trying every different password or every different key`
+- Cryptanalysis
+	- `Attacking cryptography by finding a weakness in the underlying maths`
+- Hash Collission
+	- `2 different Inputs give the same hashed output`
+- Pigeonhole Effect
+	`set number of differen output values for any size input (more inputs than outputs - e.g. 128 pigeons for 96 pigeonholes, some pigeons have to share)`
     - e.g. [MD5](https://www.mscs.dal.ca/~selinger/md5collision/)
     - e.g. [SHA1](https://shattered.io/)
+- Ciphertext
+	`The result of encrypting a plaintext, encrypted data`
+- Cipher 
+	- `A method of encrypting or decrypting data. Modern ciphers are cryptographic, but there are many non cryptographic ciphers like Caesar.`
+- Encryption
+	- `Transforming data into ciphertext, using a cipher.`
+	- `Encryption/Cryptography is used to protect confidentiality, ensure integrity, ensure authenticity.`
+- Key
+	`Some information that is needed to correctly decrypt the ciphertext and obtain the plaintext.`
+- Passphrase
+	`Separate to the key, a passphrase is similar to a password and used to protect a key.`
+- Asymmetric encryption
+	`Uses different keys to encrypt and decrypt.`
+- Symmetric encryption
+	- `Uses the same key to encrypt and decrypt`
+- Alice and Bob
+	- `Used to represent 2 people who generally want to communicate. They’re named Alice and Bob because this gives them the initials A and B. (https://en.wikipedia.org/wiki/Alice_and_Bob)`
 
 
 ## Hash Function
@@ -76,3 +100,50 @@ One Method is HMACs. A HMAC can be used to ensure that the person who created th
 	1) `wget https://gitlab.com/kalilinux/packages/hash-identifier/-/raw/kali/master/hash-id.py`
 	2) `python3 hash-id.py`
 
+
+# Encryption
+
+## Types
+
+**Symmetric encryption:** uses the same key to encrypt and decrypt the data
+	- Diffie Hellman Key Exchange
+		- Alice has Secret A + Material C and combines them to AC
+		- Bob has Secret B + Material C and combines them to BC
+		- They send each other the package and each combines them to a new Key: ABC
+**Asymmetric encryption:** uses a pair of keys (public and private) to encrypt/decrypt
+	- Digital Signatures
+
+## List
+
+- RSA
+	- based on the problem of working out the factors of large numbers (what 2 PrimeNumbers to need to multiply to get the result)
+	- Tools
+		- https://github.com/RsaCtfTool/RsaCtfTool
+		- https://github.com/ius/rsatool
+		- https://muirlandoracle.co.uk/2020/01/29/rsa-encryption/
+	- Variables
+		- `p`, `q` as PrimeNumbers
+		- `n` as the product of p and q
+		- `n`, `e` as public key
+		- `n`, `d` as private key
+		- `m` as Message in Plaintext
+		- `c` as Message in Ciphertext (Encrypted Text)
+- PGP (Pretty Good Privacy)
+- GPG (GnuPG)
+	- Open Source implementation from PGP
+	- can be protected with a password like SSH Keys
+- AES (Advanced Encryption Standard)
+	- replacement for DES
+	- Operates on a block of data
+
+
+Recommendation as of 01.07.2023: RSA-3072 or AES-256
+
+## Certificates
+
+to be continued..
+
+
+## SSH Keys
+
+to be continued..

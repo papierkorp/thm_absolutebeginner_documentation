@@ -99,6 +99,78 @@ john --single --format=raw-sha256 hashes.txt
 
 while changing the hash from `1efee03cdcb96d90ad48ccc7b8666033` to `mike:1efee03cdcb96d90ad48ccc7b8666033`
 
+
+## Custom Rules
+
+Define your own password patterns in `/etc/john/john.conf or /opt/john/john.conf`
+
+[John Wiki](https://www.openwall.com/john/doc/RULES.shtml)
+
+The `john.conf` should look like this:
+
+```bash
+[List.Rules:PoloPassword] #first line is the name of the rule, used as a argument
+cAz"[0-9] [!£$%@]" #next following is a regex pattern to define which word will be modified
+```
+
+Explanation of the Regex:
+- `Az` Append to the end of the word
+- `A0` Takes the word and prepends it with the characters you define
+- `c` Capitalise the first  letter
+- `[0-9]` - A number in the range 0-9
+- `[!£$%@]` - Followed by a symbol that is one of
+
+For example, you have following rules: 
+
+- contain at least one of the following:
+	- Capital letter
+	- Number
+	- Symbol
+
+Many users will use Polopassword1! => Capital letter first, followed by a number and a symbol at the end.
+
+To use our defined CustomRule: `john --wordlist=[path to wordlist] --rule=PoloPassword [path to file]`
+
+
+## Zip2John (crack zip files)
+
+We have to convert the zip File to a hah format that John is able to understand.
+
+`zip2john [options] [zip file] > [output file]`
+
+- `[options]` - Allows you to pass specific checksum options to zip2john, this shouldn't often be necessary  
+- `[zip file]` - The path to the zip file you wish to get the hash of
+- `>` - This is the output director, we're using this to send the output from this file to the...  
+- `[output file]` - This is the file that will store the output from
+
+`zip2john zipfile.zip > zip_hash.txt`
+
+and then `john --wordlist=/usr/share/wordlists/rockyou.txt zip_hash.txt`
+
+## Rar2John (crack rar files)
+
+The same as [zip2john](#zip2john_(crack_zip_files))
+
+`/opt/john/.rar2john [rar file] > [output file]`
+
+`/opt/john/.rar2john rarfile.rar > rar_hash.txt`
+
+`john --wordlist=/usr/share/wordlists/rockyou.txt rar_hash.txt`
+
+
+## ssh2john (crack ssh key passwords)
+
+The same as [zip2john](#zip2john%20(crack%20zip%20files))
+
+`ssh2john [id_rsa private key file] > [output file]`
+`ssh2john id_rsa > id_rsa_hash.txt`
+
+if ssh2john isnt installed use:
+
+`python3 /opt/ssh2john.py id_rsa > id_rsa_hash.txt` / `python /usr/share/john/ssh2john.py id_rsa > id_rsa_hash.txt` instead.
+
+Finish with: `john --wordlist=/usr/share/wordlists/rockyou.txt id_rsa_hash.txt`
+
 # Examples
 
 Exploit MySQL with [MetaSploit](metasploit)
