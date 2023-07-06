@@ -44,7 +44,7 @@ and then use the `--format` option:
 
 ## Windows Passwords
 
-[Windows Authentication](windows.md#authentication)
+[Windows Authentication](Enumeration/Windows.md#authentication)
 
 ```
 john --format=nt --wordlist=/usr/share/wordlists/rockyou.txt hash1.txt
