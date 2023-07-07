@@ -1,3 +1,5 @@
+#wordlists #theory
+
 In order to dictionary attack hashes you need a list of words for comparison.
 There a lot of differen kind of wordlists.
 

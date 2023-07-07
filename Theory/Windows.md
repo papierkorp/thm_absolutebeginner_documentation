@@ -1,3 +1,4 @@
+#windows #theory
 # Versions
 
 - End-User
@@ -37,6 +38,36 @@
 | List Folder Contents | Permits viewing and listing of files and subfolders as well as executing of files; inherited by folders only      | N/A                                                                                  |
 | Modify               | Permits reading and writing of files and subfolders; allows deletion of the folder                                | Permits reading and writing of the file; allows deletion of the file                 |
 | Full Control         | Permits reading, writing, changing, and deleting of files and subfolders                                          | Permits reading, writing, changing and deleting of the file                          |
+
+
+# Accounts/Profiles
+
+**See all users**
+- Windows Search: `Other users`
+- "Win + R" / Rightlick on Start Menu and Run: `lusrmgr.msc`
+
+
+**Two types of users**
+- Administrator
+	-  can make changes to the system: add users, delete users, modify groups, modify settings on the system, etc.
+- Standard User
+	- can only make changes to folders/files attributed to the user & can't perform system-level changes, such as install programs.
+
+**Default Folders for users**
+- Desktop
+- Documents
+- Downloads
+- Music
+- Pictures
+
+**UAC (User Account Control)**
+The default doesnt apply for built-in-local administrator account.
+When a user with an account type of administrator logs into a system, the current session doesn't run with elevated permissions. When an operation requiring higher-level privileges needs to execute, the user will be prompted to confirm if they permit the operation to run.
+
+The UAC settings can be changed or even turned off entirely (not recommended).
+
+
+
 
 # Important Folders/Tools
 
@@ -78,34 +109,40 @@ The `%windir%` Environment Variable contains the path to the Windows Operating S
 			- shrink a partition
 			- assign or change drive letters
 	- services and applications = view properties of service, enable/disable a service
+- `msinfo32` (System Information) = displays a comprehensive view of your hardware, system components, and software environment
+	- hardware resources
+	- components
+		- network
+			- adapater = shows the ip address
+	- software environment
+		- environment variables = see all env Variables
+			- `Control Panel > System and Security > System > Advanced system settings > Environment Variables`
+			- `Settings > System > About > system info > Advanced system settings > Environment Variables`
+- `resmon` (Resource Monitor) = displays per-process and aggregate CPU, memory, disk, and network usage information, details about which processes are using individual file handles and modules
+- `regedit` ([Windows Registry](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/windows-registry-advanced-users)) = central hierarchical database used to store information necessary to configure the system for one or more users, applications, and hardware devices
+	- Profiles for each user
+	- Applications installed on the computer and the types of documents that each can create
+	- Property sheet settings for folders and application icons
+	- What hardware exists on the system
+	- The ports that are being used.
 
-# Accounts/Profiles
-
-**See all users**
-- Windows Search: `Other users`
-- "Win + R" / Rightlick on Start Menu and Run: `lusrmgr.msc`
-
-
-**Two types of users**
-- Administrator
-	-  can make changes to the system: add users, delete users, modify groups, modify settings on the system, etc.
-- Standard User
-	- can only make changes to folders/files attributed to the user & can't perform system-level changes, such as install programs.
-
-**Default Folders for users**
-- Desktop
-- Documents
-- Downloads
-- Music
-- Pictures
-
-**UAC (User Account Control)**
-The default doesnt apply for built-in-local administrator account.
-When a user with an account type of administrator logs into a system, the current session doesn't run with elevated permissions. When an operation requiring higher-level privileges needs to execute, the user will be prompted to confirm if they permit the operation to run.
-
-The UAC settings can be changed or even turned off entirely (not recommended).
-
-
-# Taskmanager
+## Taskmanager
 
 https://www.howtogeek.com/405806/windows-task-manager-the-complete-guide/
+
+## Command Prompt (cmd)
+
+useful Commands:
+
+```bash
+hostname
+whoami #show current user
+ipconfig /? #show ip informations
+cls #clear the commandline
+netstat -a -b -e #protocol statistics and current TCP/IP Network connections
+net #manage network resources
+net user #see all subcommands..
+```
+
+
+# Active Directory

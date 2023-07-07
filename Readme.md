@@ -1,4 +1,4 @@
-This is a Documentation for the Complete Beginner Path from https://tryhackme.com/paths
+This is my Documentation for the Complete Beginner Path from https://tryhackme.com/paths
 
 The Files are written in MarkDown Language for use with https://obsidian.md/
 

@@ -1,3 +1,5 @@
+#wordlists #passwords #hash
+
 # Hashed Passwords
 
 [Hashing](hashing) Theory.

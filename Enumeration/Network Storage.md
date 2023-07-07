@@ -1,3 +1,4 @@
+#network #storage #enumeration 
 # nfs common
 
 Offers Informations about NFS Share of the Target

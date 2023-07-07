@@ -1,3 +1,5 @@
+#enumeration #ports
+
 # NMap 
 
 Is controlled with Console Commands:

@@ -1,3 +1,5 @@
+#tools 
+
 **hashcat** is the world’s fastest and most advanced password recovery/cracking tool.
 
 mode number = Parameter for specific hashes

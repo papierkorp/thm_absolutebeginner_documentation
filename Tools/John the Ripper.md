@@ -1,3 +1,5 @@
+#tools 
+
 => Hash Cracker, has a lot of different distribution. Most popular distribution is "Jumbo John".
 
 # Install
