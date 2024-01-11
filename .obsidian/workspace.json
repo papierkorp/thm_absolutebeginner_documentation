@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Theory/Windows.md",
-                "mode": "source",
+                "file": "Enumeration/Web.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Theory/Windows.md",
+                "file": "Enumeration/Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Theory/Windows.md",
+                "file": "Enumeration/Web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Theory/Windows.md"
+                "file": "Enumeration/Web.md"
               }
             }
           }
@@ -156,13 +156,14 @@
   },
   "active": "5a3ac8e07e2d6375",
   "lastOpenFiles": [
-    "Readme.md",
+    "Attack/Bruteforce.md",
+    "Theory/Web Fundamentals.md",
     "Theory/Windows.md",
+    "Readme.md",
     "Theory/Network Services.md",
     "Tools/Hydra.md",
     "Attack/Missconfiguration/XXE.md",
     "Theory/Known Exploits.md",
-    "Theory/Web Fundamentals.md",
     "Attack/Exploit DB.md",
     "How to start an attack.md",
     "Tools/Packetsniffer.md",
@@ -172,7 +173,6 @@
     "Tools/John the Ripper.md",
     "Tools/Hashcat.md",
     "Tools/Burp Suite.md",
-    "Attack/Bruteforce.md",
     "Attack/Passwords.md",
     "Projects/Picklerick - Rick and Morty.md",
     "Enumeration/Windows.md",
