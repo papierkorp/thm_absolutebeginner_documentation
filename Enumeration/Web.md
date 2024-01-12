@@ -3,8 +3,17 @@
 
 Directory Brute Forcer.
 
-```
-sudo apt install gobuster
+```bash
+sudo apt install gobuster #old version
+
+wget https://go.dev/dl/go1.21.6.linux-amd64.tar.gz
+sudo tar xvzf go1.21.6.linux-amd64.tar.gz
+sudo mv -v go /usr/local
+echo "export GOPATH=/usr/local/go" >> ~/.bashrc
+echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bashrc
+go version
+
+go install github.com/OJ/gobuster/v3@latest
 ```
 
 
