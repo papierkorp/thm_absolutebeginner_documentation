@@ -18,8 +18,17 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "0ebbdc45ac89ea4c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +163,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5a3ac8e07e2d6375",
+  "active": "0ebbdc45ac89ea4c",
   "lastOpenFiles": [
     "Attack/Bruteforce.md",
     "Theory/Web Fundamentals.md",
